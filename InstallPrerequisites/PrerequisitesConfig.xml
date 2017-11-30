@@ -17,6 +17,11 @@
 		<tool name="NET45" FileName="NET45.exe" AppName=".NET Framework 4.5" version="4.5.50710" url="https://download.microsoft.com/download/B/A/4/BA4A7E71-2906-4B2D-A0E1-80CF16844F5F/dotNetFx45_Full_setup.exe" arguments="/q"/>
 		<tool name="OpenXMLSDK" FileName="OpenXMLSDK.msi" AppName="Open XML SDK 2.5" version="2.5.5631" url="https://download.microsoft.com/download/5/5/3/553C731E-9333-40FB-ADE3-E02DC9643B31/OpenXMLSDKV25.msi" arguments="/q"/>
 	</tools>
+	<Core>
+		<tool>NET40</tool>
+		<tool>VCRedist_x86</tool>
+		<tool>TestAgent2012</tool>
+	</Core>
 	<FileServer>
 		<tool>NET40</tool>
 		<tool>VCRedist_x86</tool>
