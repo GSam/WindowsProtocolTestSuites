@@ -15,5 +15,5 @@
 --add Microsoft.VisualStudio.Component.Windows10SDK.16299.Desktop ^
 --add Microsoft.VisualStudio.Component.TestTools.Core ^
 --add Microsoft.Component.MSBuild ^
---passive --norestart --quiet
+--passive --norestart --quiet --wait
 
